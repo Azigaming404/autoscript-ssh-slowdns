@@ -262,7 +262,7 @@ netfilter-persistent reload
 cd
 # Custom Banner SSH
 echo "================  Banner ======================"
-wget -O /etc/issue.net "https://gitlab.com/hidessh/baru/-/raw/main/banner.conf"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/issue.net"
 chmod +x /etc/issue.net
 
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
@@ -271,7 +271,7 @@ echo "DROPBEAR_BANNER="/etc/issue.net"" >> /etc/default/dropbear
 # download script
 cd /usr/bin
 wget -O about "https://gitlab.com/hidessh/baru/-/raw/main/about.sh"
-wget -O menu "https://gitlab.com/hidessh/baru/-/raw/main/menu.sh"
+wget -O start "https://gitlab.com/hidessh/baru/-/raw/main/menu.sh"
 wget -O usernew "https://gitlab.com/hidessh/baru/-/raw/main/usernew.sh"
 wget -O trial "https://gitlab.com/hidessh/baru/-/raw/main/trial.sh"
 wget -O hapus "https://gitlab.com/hidessh/baru/-/raw/main/hapus.sh"
