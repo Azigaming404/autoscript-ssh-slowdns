@@ -300,7 +300,7 @@ chmod +x autoservice
 chmod +x userdelexpired
 chmod +x user-limit
 chmod +x add-host
-chmod +x menu
+chmod +x start
 chmod +x usernew
 chmod +x trial
 chmod +x hapus
